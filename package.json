@@ -1,0 +1,21 @@
+{
+  "name": "dh101-artsparticipation",
+  "version": "1.0.0",
+  "description": "Digital Humanities 101 Final Project - Arts Participation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anayang23/dh101-artsparticipation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anayang23/dh101-artsparticipation/issues"
+  },
+  "homepage": "https://github.com/anayang23/dh101-artsparticipation#readme"
+}
