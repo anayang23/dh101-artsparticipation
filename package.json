@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/anayang23/dh101-artsparticipation/issues"
   },
-  "homepage": "https://github.com/anayang23/dh101-artsparticipation#readme"
+  "homepage": "https://github.com/anayang23/dh101-artsparticipation#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.13.2"
+  }
 }
