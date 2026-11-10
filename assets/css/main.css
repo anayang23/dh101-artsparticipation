@@ -4687,3 +4687,8 @@ input, select, textarea {
 		}
 
 	}
+
+	.team-block {
+		overflow: auto;
+		margin-bottom: 20px;
+	}
