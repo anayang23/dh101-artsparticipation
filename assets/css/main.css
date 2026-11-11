@@ -3619,12 +3619,12 @@ input, select, textarea {
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
-		overflow: hidden;
+		overflow: visible;
 		padding: 0 2rem 0 0;
 		position: relative;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
-		z-index: 2;
+		z-index: 3;
 	}
 
 		#nav ul.divided li {
@@ -4692,3 +4692,49 @@ input, select, textarea {
 		overflow: auto;
 		margin-bottom: 20px;
 	}
+
+	#nav .dropdown {
+		position: relative;
+	}
+
+#nav .dropdown-menu {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	min-width: 12rem;
+	margin: 0;
+	padding: 0;
+	background: #1e252d;
+	list-style: none;
+	z-index: 10;
+}
+
+#nav .dropdown:hover .dropdown-menu,
+#nav .dropdown:focus-within .dropdown-menu {
+	display: block;
+}
+
+#nav ul.links .dropdown-menu a {
+	display: block;
+	padding: 0.75rem 1rem;
+	white-space: nowrap;
+}
+
+#navPanel .dropdown-menu {
+	display: block;
+	position: static;
+	min-width: 0;
+	margin: 0;
+	padding: 0 0 0 1rem;
+	background: transparent;
+	list-style: none;
+}
+
+#navPanel .dropdown-menu li {
+	border-top: 0;
+}
+
+#navPanel .dropdown-menu a {
+	padding-left: 1rem;
+}
