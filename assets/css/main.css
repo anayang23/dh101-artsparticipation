@@ -3722,11 +3722,11 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #2f5784;
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #18bfef !important;
 					}
 
 						#nav ul.links li.active a:hover {
@@ -4721,6 +4721,11 @@ input, select, textarea {
 	white-space: nowrap;
 }
 
+#nav ul.links li.active .dropdown-menu > li:not(.active) > a,
+#nav ul.links li.active .dropdown-menu > li:not(.active) > a:hover {
+	color: #fff !important;
+}
+
 #navPanel .dropdown-menu {
 	display: block;
 	position: static;
@@ -4737,4 +4742,8 @@ input, select, textarea {
 
 #navPanel .dropdown-menu a {
 	padding-left: 1rem;
+}
+
+.text-center {
+  text-align: center;
 }
